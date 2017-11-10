@@ -14,15 +14,15 @@ function divide(x, y) {
   return x/y
 }
 
-function inc(x) {
-  return x++
+function inc(n) {
+  return n++
 }
 
-function dec(x) {
-  return x--
+function dec(n) {
+  return n--
 }
 
-function makeInt(n) {
+function makeInt(n, 10) {
   return parseInt(n)
 }
 
